@@ -1,0 +1,25 @@
+.super-alerts-container {
+    display: flex;
+    width: 400px;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.alerts-container {
+    position: relative;
+    white-space: nowrap;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+}
+
+.alert-container-active {
+    margin: 2px;
+    position: relative;
+    display: inline-block;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
