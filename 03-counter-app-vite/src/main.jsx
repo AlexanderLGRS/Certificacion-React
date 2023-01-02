@@ -6,7 +6,7 @@ import CounterApp from './CounterApp'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <CounterApp value={5} interval={1} /> */}
+    <CounterApp value={5} interval={1} />
     <App
       title='Nuevo titulo'
       subtitle='Nuevo subtitulo'

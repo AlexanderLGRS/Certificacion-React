@@ -1,6 +1,5 @@
 import { Buffer } from 'buffer';
 import PropTypes from 'prop-types'
-import crypto from "crypto";
 
 function App({ title, subtitle, name }) {
   const getValue = (a, b) => {
@@ -9,10 +8,10 @@ function App({ title, subtitle, name }) {
 
   return (
     <div className="App">
-      <h1 onClick={() => {  }}>{title}</h1>
-      <h1>{subtitle}</h1>
-      <h1>{name}</h1>
-      <h1>{getValue(122, 184)}</h1>
+      <h1 data-testid="test-title" onClick={() => {  }}>{title}</h1>
+      <h2>{subtitle}</h2>
+      <h2>{name}</h2>
+      <h2>{getValue(2, 10)}</h2>
     </div>
   )
 }
